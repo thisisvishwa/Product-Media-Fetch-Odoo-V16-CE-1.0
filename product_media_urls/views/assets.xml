@@ -1,0 +1,12 @@
+<odoo>
+    <data>
+        <template id="product_media_assets" inherit_id="web.assets_frontend">
+            <xpath expr="." position="inside">
+                <!-- JS file for Product Media functionality -->
+                <script type="text/javascript" src="/product_media_urls/static/src/js/product_media_script.js"></script>
+                <!-- CSS file for Product Media styling -->
+                <link rel="stylesheet" type="text/css" href="/product_media_urls/static/src/css/product_media_style.css"/>
+            </xpath>
+        </template>
+    </data>
+</odoo>
