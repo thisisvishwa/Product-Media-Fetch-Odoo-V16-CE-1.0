@@ -1,0 +1,68 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Product Media via URL's 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-01 00:00+0000\n"
+"PO-Revision-Date: 2023-04-01 00:00+0000\n"
+"Last-Translator: Vishwa G\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: product_media_urls
+#: model:product.template,external_image_url:0
+msgid "External Image URL"
+msgstr "External Image URL"
+
+#. module: product_media_urls
+#: model:product.template,external_media_url:0
+msgid "External Media URL"
+msgstr "External Media URL"
+
+#. module: product_media_urls
+#: code:addons/product_media_urls/models/product_template.py:0
+msgid "Error fetching media."
+msgstr "Error fetching media."
+
+#. module: product_media_urls
+#: view:product.template:product_media_urls.view_product_template_form_inherit
+msgid "Media Configuration"
+msgstr "Media Configuration"
+
+#. module: product_media_urls
+#: view:product.template:product_media_urls.view_product_template_tree_inherit
+msgid "External URLs"
+msgstr "External URLs"
+
+#. module: product_media_urls
+#: code:addons/product_media_urls/controllers/main.py:0
+msgid "Media not found or inaccessible."
+msgstr "Media not found or inaccessible."
+
+#. module: product_media_urls
+#: code:addons/product_media_urls/controllers/main.py:0
+msgid "Fetching media..."
+msgstr "Fetching media..."
+
+#. module: product_media_urls
+#: code:addons/product_media_urls/tests/test_product_media.py:0
+msgid "Test Product Media URLs"
+msgstr "Test Product Media URLs"
+
+#. module: product_media_urls
+#: code:addons/product_media_urls/data/ir_cron_data.xml:0
+msgid "Scheduled Media Fetch"
+msgstr "Scheduled Media Fetch"
+
+#. module: product_media_urls
+#: code:addons/product_media_urls/views/assets.xml:0
+msgid "Product Media Styles"
+msgstr "Product Media Styles"
+
+#. module: product_media_urls
+#: code:addons/product_media_urls/views/assets.xml:0
+msgid "Product Media Scripts"
+msgstr "Product Media Scripts"

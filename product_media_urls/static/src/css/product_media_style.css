@@ -1,0 +1,31 @@
+.product_media_image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product_media_video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Placeholder for additional media styling */
+.product_media_additional {
+    max-width: 100%;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Error message styling */
+.product_media_error {
+    color: #dc3545; /* Bootstrap danger color */
+    background-color: #f8d7da; /* Bootstrap danger background color */
+    border-color: #f5c6cb; /* Bootstrap danger border color */
+    padding: .75rem 1.25rem;
+    margin-top: 10px;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}

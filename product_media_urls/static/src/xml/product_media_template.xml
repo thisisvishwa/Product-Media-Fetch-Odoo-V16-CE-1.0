@@ -1,0 +1,11 @@
+<templates>
+    <t t-name="product_media_template">
+        <div class="product_media_display">
+            <img t-att-src="widget.external_image_url" class="product_media_image" alt="Product Image"/>
+            <div t-if="widget.external_media_url" class="product_media_video">
+                <!-- Placeholder for additional media like videos or other formats -->
+                <!-- The actual embedding or display logic will be handled by JavaScript -->
+            </div>
+        </div>
+    </t>
+</templates>

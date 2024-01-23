@@ -1,0 +1,33 @@
+<odoo>
+    <data>
+
+        <!-- Inherit the product template form view to add external media URLs fields -->
+        <record id="view_product_template_form_inherit" model="ir.ui.view">
+            <field name="name">product.template.form.inherit.product.media.urls</field>
+            <field name="model">product.template</field>
+            <field name="inherit_id" ref="product.product_template_form_view"/>
+            <field name="arch" type="xml">
+                <xpath expr="//div[@name='image']" position="after">
+                    <group>
+                        <field name="external_image_url" widget="url" placeholder="e.g. http://example.com/image.jpg"/>
+                        <field name="external_media_url" widget="url" placeholder="e.g. http://example.com/media.mp4"/>
+                    </group>
+                </xpath>
+            </field>
+        </record>
+
+        <!-- Inherit the product template tree view to display external media URLs -->
+        <record id="view_product_template_tree_inherit" model="ir.ui.view">
+            <field name="name">product.template.tree.inherit.product.media.urls</field>
+            <field name="model">product.template</field>
+            <field name="inherit_id" ref="product.product_template_tree_view"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='list_price']" position="after">
+                    <field name="external_image_url" invisible="1"/>
+                    <field name="external_media_url" invisible="1"/>
+                </xpath>
+            </field>
+        </record>
+
+    </data>
+</odoo>
